@@ -148,6 +148,7 @@ super + shift + {1-9,0}
 super + shift + s
 		flameshot gui
 
+# web browser
 super + b
 		chromium
 

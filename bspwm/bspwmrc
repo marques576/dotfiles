@@ -10,7 +10,7 @@ fi
 nm-applet &
 greenclip daemon &
 $HOME/.config/polybar/launch.sh
-feh --bg-fill /usr/share/backgrounds/bspwm/wall.png
+feh --bg-fill /home/marques576/Pictures/1ec7558eab2fd17bace71fa56717cb56.jpg
 picom &
 
 #bspc monitor -d I II III IV V VI VII VIII IX X

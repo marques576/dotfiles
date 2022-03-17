@@ -21,6 +21,6 @@
   ImageViewer: feh
   MusicPlayer: vlc
   ScreenShot: flameshot
-  TextEditor: Gvim
-  WebBrowser: Google-chrome
+  TextEditor: gvim
+  WebBrowser: google-chrome
 </code></pre>

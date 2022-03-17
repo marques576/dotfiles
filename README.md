@@ -1,3 +1,6 @@
+<h1 align="center">Dotfiles</h1>
+<h4 align="center">dotfiles by Marques576</h4>
+
 # Stuffs In Rice
 ```
   WM: bspwm

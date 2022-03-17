@@ -1,0 +1,19 @@
+{
+	"changeLogs": {
+		"CreationDate": "1.4.6",
+		"ImageUtilities": "4.6.6",
+		"ShowHiddenChannels": "3.0.6"
+	},
+	"choices": {
+		"toastPosition": "right"
+	},
+	"general": {
+		"showToasts": true,
+		"showSupportBadges": true,
+		"useChromium": false
+	},
+	"hashes": {
+		"0BDFDB.data.json": "8f08825d634cb1ebc423392cd4cb4f58805127e6",
+		"0BDFDB.raw.css": "5b4dfd0092eb658a85c3896c5fdab49cf83d0cee"
+	}
+}

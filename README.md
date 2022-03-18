@@ -1,6 +1,10 @@
 <h1 align="center">Dotfiles</h1>
 <h4 align="center">dotfiles by Marques576</h4>
 
+<p align="center">
+<img src="https://i.ibb.co/JvV7Lvn/image.png" alt="Printscreen"/>
+</p>
+
 # Stuffs In Rice
 ```
   WM: bspwm

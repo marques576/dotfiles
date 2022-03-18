@@ -10,11 +10,11 @@ x-scheme-handler/gitkraken=GitKraken.desktop
 inode/directory=pcmanfm.desktop
 
 [Added Associations]
-application/pdf=libreoffice-draw.desktop;geoclue-where-am-i.desktop;org.pwmt.zathura-pdf-mupdf.desktop;
+application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;
 application/ovf=vmware-workstation.desktop;
-application/x-cd-image=peazip.desktop;
+application/x-cd-image=xarchiver.desktop;
 application/x-7z-compressed=xarchiver.desktop;
 inode/directory=visual-studio-code.desktop;
-text/plain=org.gnome.gedit.desktop;visual-studio-code.desktop;
-text/html=org.gnome.gedit.desktop;
+text/plain=gvim.desktop;visual-studio-code.desktop;
+text/html=gvim.desktop;
 audio/x-wav=vlc.desktop;

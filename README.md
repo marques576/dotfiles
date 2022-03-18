@@ -1,9 +1,7 @@
 <h1 align="center">Dotfiles</h1>
 <h4 align="center">dotfiles by Marques576</h4>
 
-<p align="center">
-<img src="https://i.ibb.co/JvV7Lvn/image.png" alt="Printscreen"/>
-</p>
+[![image.png](https://i.postimg.cc/fbX1GY9X/image.png)](https://postimg.cc/cKxDYgT4)
 
 # Stuffs In Rice
 ```
@@ -28,3 +26,5 @@
   TextEditor: gvim
   WebBrowser: google-chrome
 </code></pre>
+
+

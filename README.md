@@ -12,7 +12,7 @@
   LockScreen: betterlockscreen
   PdfReader: zathura
   Shell: bash, zsh
-  Terminal: kitty
+  Terminal: alacritty
 ```
 
 # Others

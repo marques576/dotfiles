@@ -9,7 +9,7 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/marques576/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -110,8 +110,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export PATH=/home/marques576/Storage/Flutter/flutter/bin:$PATH
-export ANDROID_SDK_ROOT=/home/marques576/Storage/AndroidStudioSDK
+export PATH=$HOME/Storage/Flutter/flutter/bin:$PATH
+export ANDROID_SDK_ROOT=$HOME/Storage/AndroidStudioSDK
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 

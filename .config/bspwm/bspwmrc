@@ -1,0 +1,47 @@
+#! /bin/sh
+
+#pgrep -x sxhkd > /dev/null || sxhkd &
+sxhkd &
+
+numlockx on
+xsetroot -cursor_name left_ptr &
+
+if [[ $(xrandr -q | grep 'HDMI-1 connected') ]]; then
+xrandr --output HDMI-1 --primary --mode 1920x1080 --rotate normal --output LVDS-1 --off
+fi
+
+nm-applet &
+greenclip daemon &
+$HOME/.config/polybar/launch.sh
+feh --bg-fill /home/marques576/.config/wallpapers/orangesun.jpg
+picom &
+
+dunst -conf ~/.config/dunst/dunstrc &
+
+#bspc monitor -d I II III IV V VI VII VIII IX X
+if [[ $(xrandr -q | grep 'HDMI-1 connected') ]]; then
+bspc monitor HDMI-1 -d I II III IV V
+else
+bspc monitor -d I II III IV V
+fi
+
+bspc config border_width         0
+bspc config window_gap          0
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+bspc rule -a Screenkey manage=off
+bspc rule -a flameshot state='floating'
+bspc rule -a feh state=floating
+bspc rule -a "MEGAsync" state=floating follow=on
+bspc rule -a gvim state='floating'
+bspc rule -a bspwm-toggle-visibility state=floating
+bspc rule -a bspwm-toggle-visibility state='floating'
+bspc rule -a st state=floating
+bspc rule -a st state='floating'
+
+
+st -c scratchterm &
+bspc rule -a scratchterm sticky=on state=floating hidden=on

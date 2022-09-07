@@ -107,16 +107,12 @@ super + b
 
 # clipboard
 alt + v 
-	rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
+	rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}' -theme Monokai
 
 # power menu
 super + 0
-	rofi -show power-menu -modi power-menu:rofi-power-menu
+	rofi -show p -modi p:rofi-power-menu -theme Monokai -font "JetBrains Mono NF 10" -width 5 -lines 3
 
 # file explorer
 super + e
 	nautilus -w
-
-# scartchpad
-super + shift + Return
-	scratchtermtoggle

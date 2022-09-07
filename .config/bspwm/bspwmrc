@@ -12,8 +12,8 @@ fi
 
 nm-applet &
 greenclip daemon &
-$HOME/.config/polybar/launch.sh
-feh --bg-fill /home/marques576/.config/wallpapers/orangesun.jpg
+$HOME/.config/polybar/launch.sh --shades
+feh --bg-fill $HOME/.config/wallpapers/win_PurpleFHD_Inverted.png
 picom &
 
 dunst -conf ~/.config/dunst/dunstrc &
@@ -42,6 +42,3 @@ bspc rule -a bspwm-toggle-visibility state='floating'
 bspc rule -a st state=floating
 bspc rule -a st state='floating'
 
-
-st -c scratchterm &
-bspc rule -a scratchterm sticky=on state=floating hidden=on

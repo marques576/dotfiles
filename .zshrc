@@ -8,8 +8,6 @@ export NVM_DIR="$HOME/.config/nvm"
 
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
-. "$HOME/.local/bin/env"
-
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 SAVEHIST=1000  

@@ -3,16 +3,16 @@
 
 [![image.png](https://i.postimg.cc/fbX1GY9X/image.png)](https://postimg.cc/cKxDYgT4)
 
-# Stuffs In Rice
+# Tools
 ```
-  WM: bspwm
-  Bar: polybar
+  WM: bspwm | i3
+  Bar: polybar | i3status
   Compositor: picom
-  AppLauncher: rofi
+  AppLauncher: rofi | dmenu
   LockScreen: betterlockscreen
   PdfReader: zathura
-  Shell: bash, zsh
-  Terminal: alacritty
+  Shell: zsh
+  Terminal: alacritty | kitty
 ```
 
 # Others
@@ -23,8 +23,7 @@
   ImageViewer: feh
   MusicPlayer: vlc
   ScreenShot: flameshot
-  TextEditor: gvim
-  WebBrowser: google-chrome
+  TextEditor: neovim
 </code></pre>
 
 
